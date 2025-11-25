@@ -1,0 +1,70 @@
+
+/* Features */
+.features {
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, #e6ecff, #d9d4ff); 
+  /* Azul pastel → lila suave */
+}
+
+.features h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #b100ff; /* Púrpura fuerte llamativo */
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.feature-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.feature {
+  background: #ffffff; /* Limpio y profesional */
+  padding: 1.2rem;
+  border-radius: 12px;
+  border: 1px solid #c4c4ff; 
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: 0 4px 12px rgba(177, 0, 255, 0.12);
+}
+
+.feature:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(177, 0, 255, 0.25); /* Glow morado */
+}
+
+.feature h4 {
+  margin-bottom: 0.5rem;
+  color: #b100ff; /* Púrpura vibrante */
+  font-size: 1.2rem;
+}
+
+.feature p {
+  color: #4b4b7a; /* Azul-gris profesional */
+}
+
+/* Footer */
+footer {
+  background: #c7c2ff; /* Lila claro */
+  color: #b100ff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  border-top: 2px solid #b100ff;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .feature-list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .feature {
+    flex: 1;
+    margin: 0 0.5rem;
+  }
+}

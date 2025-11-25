@@ -1,0 +1,35 @@
+.hero {
+  background: linear-gradient(135deg, #d9d4ff, #b3c8ff); 
+  /* Lila suave → azul claro, combinando con Features y Header */
+  color: #4b4b7a; /* Azul gris profesional */
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  color: #b100ff; /* Morado vibrante para destacar */
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  color: #4b4b7a; 
+}
+
+/* Botón */
+.btn_hero {
+  background: #b100ff; /* Morado vibrante consistente */
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+
+.btn_hero:hover {
+  background: #d46aff; /* Morado más claro para hover */
+  transform: translateY(-3px);
+}

@@ -1,0 +1,90 @@
+/* Formulario de contacto */
+.contacto {
+    padding: 3rem 2rem; 
+    background: #e6ecff; /* Azul pastel — mismo que el header */
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 1.5rem auto 3rem;
+  background: #ffffff;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  border: 1px solid #c4c4ff; /* Lila claro */
+  box-shadow: 0 4px 12px rgba(177, 0, 255, 0.15); /* Glow suave morado */
+}
+
+/* Grupos del formulario */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #4b4b7a; /* Azul gris profesional */
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #c4c4ff; /* Lila suave */
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #b100ff; /* Morado vibrante */
+  outline: none;
+  box-shadow: 0 0 8px rgba(177, 0, 255, 0.25);
+}
+
+/* Botón */
+.btn {
+  display: inline-block;
+  background: #b100ff; /* Morado principal de tu paleta */
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background: #d46aff; /* Morado claro en hover */
+  transform: translateY(-3px);
+}
+
+/* Información de contacto adicional */
+.contact-info {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #d9d4ff; /* Lila suave del diseño */
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  border-left: 6px solid #b100ff; /* Morado */
+  color: #4b4b7a; 
+  box-shadow: 0 4px 10px rgba(177, 0, 255, 0.12);
+}
+
+.contact-info h4 {
+  margin-bottom: 1rem;
+  color: #b100ff;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact-info li {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
