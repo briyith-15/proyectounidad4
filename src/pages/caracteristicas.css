@@ -1,0 +1,27 @@
+/* Título de características */
+.features h3 {
+  color: #8a2be2; /* Morado intenso */
+  margin-bottom: 1.5rem;
+}
+
+/* Tarjetas */
+.feature-list .feature {
+  background: #f5e8ff;            /* Lila muy claro */
+  border: 1px solid #d6b8ff;      /* Lavanda */
+  transition: background-color 0.3s ease;
+}
+
+.feature-list .feature:hover {
+  background: #e4c8ff;            /* Morado pastel */
+}
+
+/* Sección "más información" */
+.more-info {
+  margin-top: 3rem;
+  background: #ffeef8;            /* Rosa pastel */
+  padding: 1.5rem;
+  border-left: 5px solid #ff4fa3; /* Rosa fuerte */
+  font-style: italic;
+  color: #b4005c;                 /* Fucsia oscuro */
+}
+

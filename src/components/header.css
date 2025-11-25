@@ -1,0 +1,30 @@
+header {
+  background: #e6ecff; /* Azul pastel que combina con el fondo de Features */
+  border-bottom: 1px solid #c4c4ff; /* Lila claro */
+  padding: 1rem 0;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #b100ff; /* Morado vibrante (principal) */
+  text-align: center;
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4b4b7a; /* Azul gris profesional (mismo del texto) */
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #b100ff; /* Morado vibrante igual que los títulos */
+}

@@ -1,0 +1,174 @@
+{
+  "peliculas": [
+    {
+      "id": 1,
+      "titulo": "Barbie",
+      "año": 2023,
+      "genero": "Comedia",
+      "imagen": "barbie.webp",
+      "sinopsis": "Después de ser expulsada de Barbieland por no ser una muñeca de aspecto perfecto, Barbie parte hacia el mundo humano para encontrar la verdadera felicidad.",
+      "calificacion": 8,
+      "precio": 18
+    },
+    {
+      "id": 2,
+      "titulo": "Elementos",
+      "año": 2023,
+      "genero": "Animación",
+      "imagen": "elementos.jpeg",
+      "sinopsis": "En una ciudad en la que los elementos de fuego, agua, tierra y aire viven en distritos separados, una chica de fuego y un chico de agua descubren que, aunque la sociedad les diga lo contrario, tienen muchas cosas en común.",
+      "calificacion": 9,
+      "precio": 22
+    },
+    {
+      "id": 3,
+      "titulo": "Avenger",
+      "año": 2023,
+      "genero": "Accion",
+      "imagen": "avengers.webp",
+      "sinopsis": "Cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial, Nick Fury, director de la Agencia SHIELD, decide reclutar a un equipo para salvar al mundo de un desastre casi seguro. Adaptación del cómic de Marvel Los Vengadores, el legendario grupo de superhéroes formado por Ironman, Hulk, Thor y el Capitán América entre otros.",
+      "calificacion": 10,
+      "precio": 20
+    },
+    {
+      "id": 4,
+      "titulo": "La Casa de Papel",
+      "año": 2023,
+      "genero": "Accion",
+      "imagen": "casa_de_papel.jpg",
+      "sinopsis": "a serie La casa de papel trata de un grupo de atracadores liderados por un misterioso hombre llamado el Profesor, que planean y ejecutan asaltos complejos a instituciones financieras españolas, como la Fábrica Nacional de Moneda y Timbre y el Banco de España, tomando rehenes y manipulando a la policía para lograr sus objetivos",
+      "calificacion": 9,
+      "precio": 17
+    },
+    {
+      "id": 5,
+      "titulo": "Juego de Tronos",
+      "año": 2023,
+      "genero": "Drama",
+      "imagen": "juego_de_tronos.jpg",
+      "sinopsis": "Juego de Tronos es una pelicula de fantasia.",
+      "calificacion": 10,
+      "precio": 19
+    },
+    {
+      "id": 6,
+      "titulo": "El Señor de los Anillos",
+      "año": 2023,
+      "genero": "Accion",
+      "imagen": "señor_de_los_anillos.jpg",
+      "sinopsis": "El Señor de los Anillos es una pelicula de fantasia.",
+      "calificacion": 9,
+      "precio": 21
+    },
+    {
+      "id": 7,
+      "titulo": "Harry Potter",
+      "año": 2023,
+      "genero": "Accion",
+      "imagen": "harry_potter.webp",
+      "sinopsis": "Harry Potter es una pelicula de fantasia. El protagonista es un mago de magia y hechiceria.",
+      "calificacion": 10,
+      "precio": 19
+    },
+    {
+      "id": 8,
+      "titulo": "El Señor de los Anillos: La Comunidad del Anillo",
+      "año": 2001,
+      "genero": "Fantasia",
+      "imagen": "señor_de_los_anillos.jpg",
+      "sinopsis": "Un joven hobbit inicia un viaje épico para destruir un anillo con un poder oscuro que amenaza a toda la Tierra Media.",
+      "calificacion": 9,
+      "precio": 20
+    },
+    {
+      "id": 9,
+      "titulo": "Avatar",
+      "año": 2009,
+      "genero": "Ciencia Ficcion",
+      "imagen": "Avatar.jpg",
+      "sinopsis": "Un ex marine paralítico es enviado al planeta Pandora, donde se enfrenta a un conflicto entre humanos y la raza Na'vi.",
+      "calificacion": 9,
+      "precio": 22
+    },
+    {
+      "id": 10,
+      "titulo": "Interestelar",
+      "año": 2014,
+      "genero": "Ciencia Ficcion",
+      "imagen": "Interestelar.jpg",
+      "sinopsis": "Un grupo de astronautas viaja por un agujero de gusano en busca de un nuevo hogar para la humanidad.",
+      "calificacion": 10,
+      "precio": 23
+    },
+    {
+      "id": 11,
+      "titulo": "Batman: El Caballero de la Noche",
+      "año": 2008,
+      "genero": "Accion",
+      "imagen": "Batman.jpg",
+      "sinopsis": "Batman enfrenta al Joker, un criminal caótico que busca sumir a Ciudad Gótica en el desorden total.",
+      "calificacion": 10,
+      "precio": 21
+    },
+    {
+      "id": 12,
+      "titulo": "Spider-Man: Sin Camino a Casa",
+      "año": 2021,
+      "genero": "Accion",
+      "imagen": "Spider-Man.jpg",
+      "sinopsis": "Peter Parker lidia con las consecuencias de que su identidad sea revelada, mientras villanos de otros universos llegan a su mundo.",
+      "calificacion": 9,
+      "precio": 20
+    },
+    {
+      "id": 13,
+      "titulo": "Jurassic Park",
+      "año": 1993,
+      "genero": "Aventura",
+      "imagen": "Jurassic-Park}.jpg",
+      "sinopsis": "Un parque temático lleno de dinosaurios clonados se convierte en una amenaza cuando las criaturas escapan.",
+      "calificacion": 8,
+      "precio": 18
+    },
+    {
+      "id": 14,
+      "titulo": "Frozen",
+      "año": 2013,
+      "genero": "Animacion",
+      "imagen": "Frozen.jpg",
+      "sinopsis": "Dos hermanas reales deben enfrentar poderes mágicos y emociones profundas para salvar su reino del invierno eterno.",
+      "calificacion": 8,
+      "precio": 16
+    },
+    {
+      "id": 15,
+      "titulo": "Titanic",
+      "año": 1997,
+      "genero": "Drama",
+      "imagen": "Titanic.jpg",
+      "sinopsis": "Una historia de amor entre dos jóvenes que viajan a bordo del famoso transatlántico condenado.",
+      "calificacion": 9,
+      "precio": 19
+    },
+    {
+      "id": 16,
+      "titulo": "Star Wars: Episodio III - La Venganza de los Sith",
+      "año": 2005,
+      "genero": "Ciencia Ficcion",
+      "imagen": "Star-Wars.jpg",
+      "sinopsis": "Anakin Skywalker cae al lado oscuro y se convierte en Darth Vader, marcando el ascenso del Imperio Galáctico.",
+      "calificacion": 9,
+      "precio": 21
+    },
+    {
+      "id": 17,
+      "titulo": "Los Increíbles",
+      "año": 2004,
+      "genero": "Animacion",
+      "imagen": "Los-Increíbles.jpg",
+      "sinopsis": "Una familia de superhéroes intenta llevar una vida normal, pero debe volver a la acción para salvar al mundo.",
+      "calificacion": 9,
+      "precio": 17
+    }
+  ]
+}
