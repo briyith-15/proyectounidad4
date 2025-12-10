@@ -37,14 +37,12 @@ function ListaPeliculas() {
                         <p className='text-[#b100ff] font-bold mt-3'>
                             Precio entrada: S/. {peliculas.precio}
                         </p>
-
                         <Link
                             to={`/comprar/${peliculas.id}`}
                             className='mt-4 block text-center bg-[#b100ff] text-white font-bold py-2 rounded-xl hover:bg-[#8e00cc] transition-all'
                         >
                             Comprar Entradas
                         </Link>
-
                     </div>
                 ))}
             </div>
