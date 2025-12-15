@@ -1,4 +1,5 @@
 import datos from '../data/peliculas.json';
+import { Link } from 'react-router-dom';
 
 function ListaPeliculas() {
     return (
@@ -37,12 +38,8 @@ function ListaPeliculas() {
                         <p className='text-[#b100ff] font-bold mt-3'>
                             Precio entrada: S/. {peliculas.precio}
                         </p>
-                        <Link
-                            to={`/comprar/${peliculas.id}`}
-                            className='mt-4 block text-center bg-[#b100ff] text-white font-bold py-2 rounded-xl hover:bg-[#8e00cc] transition-all'
-                        >
-                            Comprar Entradas
-                        </Link>
+                        <Link to="/comprarEntrada" className="px-5 py-2.5 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold rounded-xl shadow-lg hover:opacity-90 hover:shadow-xl transition-all duration-300"> 
+                        Entrada </Link>
                     </div>
                 ))}
             </div>

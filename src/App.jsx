@@ -22,6 +22,7 @@ import RutaPrivada from "./components/RutaPrivada";
 
 import Login from "./components/Login";
 import RegistrarCuenta from "./components/RegistrarCuenta";
+import ComprarEntrada from "./components/compras";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path="/peliculas" element={<ListaPeliculas />} />
           <Route path="/iniciar-sesion" element={<Login/>} />
           <Route path="/registrarse" element={<RegistrarCuenta/>} />
+          <Route path="/comprarEntrada" element={<ComprarEntrada/>} />
           <Route path="/comunidad" element={
             <>
               <RutaPrivada>
