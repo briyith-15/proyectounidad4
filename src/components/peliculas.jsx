@@ -1,5 +1,7 @@
 import datos from '../data/peliculas.json';
 import { Link } from 'react-router-dom';
+import Rating from "../components/Rating";
+
 
 function ListaPeliculas() {
     return (
@@ -38,8 +40,14 @@ function ListaPeliculas() {
                         <p className='text-[#b100ff] font-bold mt-3'>
                             Precio entrada: S/. {peliculas.precio}
                         </p>
-                        <Link to="/comprarEntrada" className="px-5 py-2.5 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold rounded-xl shadow-lg hover:opacity-90 hover:shadow-xl transition-all duration-300"> 
-                        Entrada </Link>
+                        <Link to="/comprarEntrada" className="px-5 py-2.5 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold rounded-xl shadow-lg hover:opacity-90 hover:shadow-xl transition-all duration-300">
+                            Entrada </Link>
+
+                        <Rating peliculaId={peliculas.id} />
+                        <p className="text-center text-sm text-gray-500 mt-1">
+                            Califica esta película
+                        </p>
+
                     </div>
                 ))}
             </div>
